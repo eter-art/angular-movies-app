@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'movies-app';
+  title = 'The title of App Component';
+  today = new Date();
+  imageUrl = 'https://upload.wikimedia.org/wikipedia/en/2/26/Fall_ver2.jpg'
+  price = 10;
+  sellingPrice = 15.50;
 }
