@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'The title of App Component';
   today = new Date();
   imageUrl = 'https://upload.wikimedia.org/wikipedia/en/2/26/Fall_ver2.jpg'
+  imageWidth = 200;
   price = 10;
   sellingPrice = 15.50;
 }

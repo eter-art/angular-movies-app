@@ -1,8 +1,6 @@
 <h1>{{title | uppercase}}</h1>
 <h3>Today: {{today | date: 'dd/MM/yyy'}}</h3>
-<p>
-    Image URL: {{imageUrl | lowercase}}
-</p>
+<img [src]="imageUrl" [width]="imageWidth">
 
 <span>
     Selling price: {{sellingPrice | currency}}, profit: {{sellingPrice | profit | currency}}
