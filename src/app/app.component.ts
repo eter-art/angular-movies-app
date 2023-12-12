@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'The title of App Component';
-  today = new Date();
-  timeNow = new Date();
-  setTimeToNow(){
-    console.log(new Date());
-    this.timeNow = new Date();
-  }
+ fullName = "Bla Bla"
 }

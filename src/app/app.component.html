@@ -1,5 +1,3 @@
-<h1>{{title | uppercase}}</h1>
-<h3>Today: {{today | date: 'dd/MM/yyy'}}</h3>
+<input [(ngModel)]="fullName">
 
-<button (click)="setTimeToNow()">Set time to new</button>
-<p>Time now: {{timeNow}}</p>
+<p>{{fullName}}</p>
