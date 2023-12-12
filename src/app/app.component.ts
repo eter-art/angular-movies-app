@@ -12,4 +12,5 @@ export class AppComponent {
   imageWidth = 200;
   price = 10;
   sellingPrice = 15.50;
+  attributeValue = "movies-app-test-value"
 }
