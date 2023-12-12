@@ -1,10 +1,5 @@
 <h1>{{title | uppercase}}</h1>
 <h3>Today: {{today | date: 'dd/MM/yyy'}}</h3>
-<img [src]="imageUrl" [width]="imageWidth">
 
-<span>
-    Selling price: {{sellingPrice | currency}}, profit: {{sellingPrice | profit | currency}}
-</span>
-
-<hr>
-<button type="button" [attr.aria-label]="attributeValue">Sample button</button>
+<button (click)="setTimeToNow()">Set time to new</button>
+<p>Time now: {{timeNow}}</p>
